@@ -1,7 +1,8 @@
-console.log('hello2');
+console.log('hello3');
 fetch('https://api.npoint.io/74e502af367c773ad03a').then(t=>t.json()).then(console.log);
 const button = document.createElement('button');
 button.textContent = "Submit";
+document.body.append(button);
 button.addEventListener('click',()=>{
   console.log('clk');
   fetch('https://api.npoint.io/74e502af367c773ad03a', {
